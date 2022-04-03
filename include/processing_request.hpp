@@ -1,7 +1,7 @@
 // Copyright 2021 Your Name <your_email>
 
-#ifndef INCLUDE_EXAMPLE_HPP_
-#define INCLUDE_EXAMPLE_HPP_
+#ifndef INCLUDE_PROCESSING_REQUEST_HPP_
+#define INCLUDE_PROCESSING_REQUEST_HPP_
 
 #include <boost/asio/ip/tcp.hpp>
 #include <boost/beast/core.hpp>
@@ -26,4 +26,4 @@ auto example() -> void;
 
 void go_useful_server(int argc, char* argv[]);
 
-#endif // INCLUDE_EXAMPLE_HPP_
+#endif // INCLUDE_PROCESSING_REQUEST_HPP_
